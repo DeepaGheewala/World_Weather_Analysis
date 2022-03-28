@@ -29,13 +29,13 @@ Vacation_Search folder contains the following files :
  
  ### Deliverable 3: Create a Travel Itinerary Map
  Vacation_Itinerary folder contains the following files :
-  * [Vacation_Itinerary.ipynb]()
+  * [Vacation_Itinerary.ipynb](Vacation_Iternary/Vacation_Itinerary.ipynb)
   
   * **WeatherPy_travel_map.png** - Displays the travel route
-   <img src="Vacation_Itinerary/WeatherPy_travel_map.png" />
+   <img src="Vacation_Iternary/WeatherPy_travel_map.png" />
    
    
   * **WeatherPy_travel_map_markers.png** - Display the markers of the travel route. 
-   <img src="Vacation_Itinerary/WeatherPy_travel_map_markers.png" />
+   <img src="Vacation_Iternary/WeatherPy_travel_map_markers.png" />
 
 
