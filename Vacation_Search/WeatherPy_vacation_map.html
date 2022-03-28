@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "c1ed8eedb7894b1e87ca01131f0667c1": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "100%",
+        "width": "100%"
+      }
+    },
+    "cc74d3e378d540c1bd728feda2108462": {
+      "model_name": "PlainmapModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "configuration": {
+          "api_key": "AIzaSyC0Y3Ua2IgOwCGmgCP1tZyuZvW4urxRDOU"
+        },
+        "data_bounds": [
+          [
+            32.18602768142735,
+            -173.0054188142363
+          ],
+          [
+            70.7291858778947,
+            -173.089632910374
+          ]
+        ],
+        "initial_viewport": {
+          "type": "ZOOM_CENTER",
+          "center": [
+            20.0,
+            25.0
+          ],
+          "zoom_level": 1
+        },
+        "layers": [
+          "IPY_MODEL_24aa3339bbe64953a96a096d512ab15f"
+        ],
+        "layout": "IPY_MODEL_c1ed8eedb7894b1e87ca01131f0667c1"
+      }
+    },
+    "5297e3dfce9647cc98043e1ea4ac54aa": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e7c05292fa1c40c99539250b0a924620": {
+      "model_name": "ToolbarModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "layer_controls": [],
+        "layout": "IPY_MODEL_5297e3dfce9647cc98043e1ea4ac54aa"
+      }
+    },
+    "57d8ac96a3b04fc8a55534d73bbef136": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "4c9d815fac614f33a7cfdb8b89353209": {
+      "model_name": "ErrorsBoxModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "errors": [],
+        "layout": "IPY_MODEL_57d8ac96a3b04fc8a55534d73bbef136"
+      }
+    },
+    "fd1681aa039b4999baabc6589890f7f7": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "420px"
+      }
+    },
+    "52378aa805104a9883a8ab5cfd0adc5c": {
+      "model_name": "FigureModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "_errors_box": "IPY_MODEL_4c9d815fac614f33a7cfdb8b89353209",
+        "_map": "IPY_MODEL_cc74d3e378d540c1bd728feda2108462",
+        "_toolbar": "IPY_MODEL_e7c05292fa1c40c99539250b0a924620",
+        "layout": "IPY_MODEL_fd1681aa039b4999baabc6589890f7f7"
+      }
+    },
+    "ab6cd966b3ae40b190cee07e6136666e": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Airbnb rooms</dd>\n<dt>City</dt><dd>Klaksvik</dd>\n<dt>Country</dt><dd>FO</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 38.32*F</dd>\n</dl>\n",
+        "location": [
+          62.2266,
+          -6.589
+        ]
+      }
+    },
+    "9c942e6769a84f05bad2b07c18e1b1ed": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Tourist House - Sablino</dd>\n<dt>City</dt><dd>Nikolskoye</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>light snow and 34.88*F</dd>\n</dl>\n",
+        "location": [
+          59.7035,
+          30.7861
+        ]
+      }
+    },
+    "c7dfd199eff4460d9a9a072a94daebb4": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Best Western Kodiak Inn And Convention Center</dd>\n<dt>City</dt><dd>Kodiak</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>moderate rain and 38.71*F</dd>\n</dl>\n",
+        "location": [
+          57.79,
+          -152.4072
+        ]
+      }
+    },
+    "0373a13994634715b9cdc9cd26913e56": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel Olafsvik</dd>\n<dt>City</dt><dd>Olafsvik</dd>\n<dt>Country</dt><dd>IS</dd>\n<dt>Current Weather</dt><dd>snow and 34.2*F</dd>\n</dl>\n",
+        "location": [
+          64.8945,
+          -23.7142
+        ]
+      }
+    },
+    "3f9d3e0bbe9d4809aa8bf0ef274b33ae": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Holiday Inn Express & Suites Tower Center New Brunswick, an IHG Hotel</dd>\n<dt>City</dt><dd>South River</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>broken clouds and 33.15*F</dd>\n</dl>\n",
+        "location": [
+          40.4465,
+          -74.386
+        ]
+      }
+    },
+    "c461d52f9ab84358ac70d100a6e5add7": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Tomiris</dd>\n<dt>City</dt><dd>Ordzhonikidze</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 31.53*F</dd>\n</dl>\n",
+        "location": [
+          52.4411,
+          61.7408
+        ]
+      }
+    },
+    "5428f76b3d604ecf9743b4ed45a9b3d2": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>KirOFF Park</dd>\n<dt>City</dt><dd>Yarovoye</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 30.47*F</dd>\n</dl>\n",
+        "location": [
+          52.9273,
+          78.58
+        ]
+      }
+    },
+    "172bc65fbb81489196c30512b689e411": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Ch\u00e2teau Madelinot</dd>\n<dt>City</dt><dd>Cap-Aux-Meules</dd>\n<dt>Country</dt><dd>CA</dd>\n<dt>Current Weather</dt><dd>fog and 35.65*F</dd>\n</dl>\n",
+        "location": [
+          47.3821,
+          -61.8597
+        ]
+      }
+    },
+    "af53682c2a3f4b3eb548acfc31f88831": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Guesthouse 77</dd>\n<dt>City</dt><dd>Eyrarbakki</dd>\n<dt>Country</dt><dd>IS</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 39.25*F</dd>\n</dl>\n",
+        "location": [
+          63.863,
+          -21.1481
+        ]
+      }
+    },
+    "4a431f8b31954f329b1bbdc34b95d12e": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Two Rivers Bed and Breakfast</dd>\n<dt>City</dt><dd>Montague</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 30.79*F</dd>\n</dl>\n",
+        "location": [
+          42.5356,
+          -72.5351
+        ]
+      }
+    },
+    "8de047d5a24546d4bba43e19cc8d1b0a": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel \"Ternay\"</dd>\n<dt>City</dt><dd>Terney</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>clear sky and 31.3*F</dd>\n</dl>\n",
+        "location": [
+          45.0503,
+          136.6092
+        ]
+      }
+    },
+    "ca9a629f20634dfab668a9e73c44edba": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Aspen Extended Stay Suites</dd>\n<dt>City</dt><dd>Kenai</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 34.03*F</dd>\n</dl>\n",
+        "location": [
+          60.5544,
+          -151.2583
+        ]
+      }
+    },
+    "e048c660c8a94ea3bdad974eb1f6d831": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Holiday Inn Express Roseville-St. Paul, an IHG Hotel</dd>\n<dt>City</dt><dd>Saint Anthony</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>clear sky and 30.92*F</dd>\n</dl>\n",
+        "location": [
+          45.0205,
+          -93.218
+        ]
+      }
+    },
+    "c29e5f1ac3bb43c197e8a320886a5268": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Yiranju Farmstay</dd>\n<dt>City</dt><dd>Dandong</dd>\n<dt>Country</dt><dd>CN</dd>\n<dt>Current Weather</dt><dd>clear sky and 37.29*F</dd>\n</dl>\n",
+        "location": [
+          40.1292,
+          124.3947
+        ]
+      }
+    },
+    "28c45fd9a36d400490636ba30dbc0ac0": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Courtyard by Marriott Danbury</dd>\n<dt>City</dt><dd>Bethel</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 30.58*F</dd>\n</dl>\n",
+        "location": [
+          41.3712,
+          -73.414
+        ]
+      }
+    },
+    "50731497f9c34df1ac489f4ff79457c6": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel Arctic</dd>\n<dt>City</dt><dd>Ilulissat</dd>\n<dt>Country</dt><dd>GL</dd>\n<dt>Current Weather</dt><dd>few clouds and 35.62*F</dd>\n</dl>\n",
+        "location": [
+          69.2167,
+          -51.1
+        ]
+      }
+    },
+    "b894c6b58467488a9fa17005c75a49e1": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Zabava U Sergeyevicha</dd>\n<dt>City</dt><dd>Parfino</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 37.27*F</dd>\n</dl>\n",
+        "location": [
+          57.9731,
+          31.6481
+        ]
+      }
+    },
+    "3ca3e59e95004de1a2898bd37892b0ac": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Silk Way Hotel</dd>\n<dt>City</dt><dd>Aktau</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 36.18*F</dd>\n</dl>\n",
+        "location": [
+          43.65,
+          51.2
+        ]
+      }
+    },
+    "3c72fcc4a8ab40b5b8f3ce8283fbc9fa": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Sweet Sharons bnb</dd>\n<dt>City</dt><dd>Bonavista</dd>\n<dt>Country</dt><dd>CA</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 37.09*F</dd>\n</dl>\n",
+        "location": [
+          48.6499,
+          -53.1147
+        ]
+      }
+    },
+    "1a033e934f684e289f270b0a8b18eb0f": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Gostinitsa \"Zvezdnaya\"</dd>\n<dt>City</dt><dd>Zenzeli</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>broken clouds and 36.12*F</dd>\n</dl>\n",
+        "location": [
+          45.9241,
+          47.0474
+        ]
+      }
+    },
+    "ce4290a39d4143eaaf2b5e00d978da96": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Utp\u00e5 Neset AS</dd>\n<dt>City</dt><dd>Trofors</dd>\n<dt>Country</dt><dd>NO</dd>\n<dt>Current Weather</dt><dd>snow and 30.07*F</dd>\n</dl>\n",
+        "location": [
+          65.5333,
+          13.4063
+        ]
+      }
+    },
+    "588fe0ca55194f98a6fee10010a59824": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Sjybrygga fiskecamp</dd>\n<dt>City</dt><dd>Sorland</dd>\n<dt>Country</dt><dd>NO</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 33.76*F</dd>\n</dl>\n",
+        "location": [
+          67.667,
+          12.6934
+        ]
+      }
+    },
+    "e02fcbe70f9745b3996dce8f4f23a407": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>AmericInn by Wyndham Kewanee</dd>\n<dt>City</dt><dd>Kewanee</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 32.79*F</dd>\n</dl>\n",
+        "location": [
+          41.2456,
+          -89.9248
+        ]
+      }
+    },
+    "fc353814112e46ff9a1e645fbac5e291": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Auberge Niapiskau</dd>\n<dt>City</dt><dd>Havre-Saint-Pierre</dd>\n<dt>Country</dt><dd>CA</dd>\n<dt>Current Weather</dt><dd>mist and 30.56*F</dd>\n</dl>\n",
+        "location": [
+          50.2334,
+          -63.5986
+        ]
+      }
+    },
+    "11bc0c7afe8545578bd0dad2d05d76bd": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Pearl Hotel</dd>\n<dt>City</dt><dd>Langxiang</dd>\n<dt>Country</dt><dd>CN</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 31.66*F</dd>\n</dl>\n",
+        "location": [
+          46.95,
+          128.8833
+        ]
+      }
+    },
+    "021a689e11f74e6595e50e0e6a3f8c15": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel Keflavik</dd>\n<dt>City</dt><dd>Keflavik</dd>\n<dt>Country</dt><dd>IS</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 39.63*F</dd>\n</dl>\n",
+        "location": [
+          64.0049,
+          -22.5624
+        ]
+      }
+    },
+    "785192844a50468b9577e62881aee653": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0447\u043d\u044b\u0439 \u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 Saad</dd>\n<dt>City</dt><dd>Atbasar</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>light snow and 32.99*F</dd>\n</dl>\n",
+        "location": [
+          51.8,
+          68.3333
+        ]
+      }
+    },
+    "55ac41873be44f29b9a084852ea5d951": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Pistut</dd>\n<dt>City</dt><dd>Paamiut</dd>\n<dt>Country</dt><dd>GL</dd>\n<dt>Current Weather</dt><dd>clear sky and 32.29*F</dd>\n</dl>\n",
+        "location": [
+          61.994,
+          -49.6678
+        ]
+      }
+    },
+    "a6ecf6e1d769405bb485db0cde7bd782": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Vestmanna Camping</dd>\n<dt>City</dt><dd>Vestmanna</dd>\n<dt>Country</dt><dd>FO</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 36.52*F</dd>\n</dl>\n",
+        "location": [
+          62.1564,
+          -7.1664
+        ]
+      }
+    },
+    "1310beeb8e684f52b1d6a8547b15a1e2": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Havsdalsgrenda Geilo</dd>\n<dt>City</dt><dd>Geilo</dd>\n<dt>Country</dt><dd>NO</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 30.7*F</dd>\n</dl>\n",
+        "location": [
+          60.5333,
+          8.2076
+        ]
+      }
+    },
+    "f0d88698678a4f1bb50073043802002d": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hilton Garden Inn Chicago North Shore/Evanston</dd>\n<dt>City</dt><dd>Evanston</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>few clouds and 32.38*F</dd>\n</dl>\n",
+        "location": [
+          42.0411,
+          -87.6901
+        ]
+      }
+    },
+    "0719c0a53e8a40119e5b69e8ca9d3ada": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Golkoy Ogretmenevi</dd>\n<dt>City</dt><dd>Golkoy</dd>\n<dt>Country</dt><dd>TR</dd>\n<dt>Current Weather</dt><dd>broken clouds and 34.2*F</dd>\n</dl>\n",
+        "location": [
+          40.6875,
+          37.6178
+        ]
+      }
+    },
+    "fb79d1af43a4425b9108fd8fcf003ced": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel Nemuro Kaiyoutei</dd>\n<dt>City</dt><dd>Nemuro</dd>\n<dt>Country</dt><dd>JP</dd>\n<dt>Current Weather</dt><dd>clear sky and 31.84*F</dd>\n</dl>\n",
+        "location": [
+          43.3236,
+          145.575
+        ]
+      }
+    },
+    "44c439f739794b609c225eb1f924dc43": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\u041e\u0442\u0435\u043b\u044c \"\u0411\u0410\u041b\u0418\"</dd>\n<dt>City</dt><dd>Vrangel</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>clear sky and 35.74*F</dd>\n</dl>\n",
+        "location": [
+          42.7297,
+          133.0839
+        ]
+      }
+    },
+    "21513cf7356f4187aada2ba2792fff0c": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Sijisheng Fashion Guest House</dd>\n<dt>City</dt><dd>Songjianghe</dd>\n<dt>Country</dt><dd>CN</dd>\n<dt>Current Weather</dt><dd>scattered clouds and 31.08*F</dd>\n</dl>\n",
+        "location": [
+          42.1859,
+          127.479
+        ]
+      }
+    },
+    "b3a46feed40144709293cefce5dcd90a": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Westmark Sitka</dd>\n<dt>City</dt><dd>Sitka</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>broken clouds and 35.49*F</dd>\n</dl>\n",
+        "location": [
+          57.0531,
+          -135.33
+        ]
+      }
+    },
+    "0097cba004c94992872378f5fc1b7f71": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>First Hotel Stadt</dd>\n<dt>City</dt><dd>Harnosand</dd>\n<dt>Country</dt><dd>SE</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 32.0*F</dd>\n</dl>\n",
+        "location": [
+          62.6323,
+          17.9379
+        ]
+      }
+    },
+    "3cd4887dda3c4d86ac310dbf706b1048": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\ub86f\ub370\ud638\ud154 \uc11c\uc6b8</dd>\n<dt>City</dt><dd>Seoul</dd>\n<dt>Country</dt><dd>KR</dd>\n<dt>Current Weather</dt><dd>clear sky and 36.84*F</dd>\n</dl>\n",
+        "location": [
+          37.5683,
+          126.9778
+        ]
+      }
+    },
+    "ef73d4a2c1994d93a89cfbb99cf9b765": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel Fessla</dd>\n<dt>City</dt><dd>Qostanay</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 33.78*F</dd>\n</dl>\n",
+        "location": [
+          53.1667,
+          63.5833
+        ]
+      }
+    },
+    "b323e4979a9c43bfb439ebdb5c82b4cf": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hua Ling Grand Hotel Urumqi</dd>\n<dt>City</dt><dd>Urumqi</dd>\n<dt>Country</dt><dd>CN</dd>\n<dt>Current Weather</dt><dd>clear sky and 38.35*F</dd>\n</dl>\n",
+        "location": [
+          43.801,
+          87.6005
+        ]
+      }
+    },
+    "ad71c3c068bd4332a3dd1d48790b656e": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Oasis hotel Bautino</dd>\n<dt>City</dt><dd>Fort-Shevchenko</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 37.18*F</dd>\n</dl>\n",
+        "location": [
+          44.5086,
+          50.263
+        ]
+      }
+    },
+    "d8d0bc20d510470099ba00a9914c329b": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Biryuch</dd>\n<dt>City</dt><dd>Zasosna</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 38.41*F</dd>\n</dl>\n",
+        "location": [
+          50.6307,
+          38.3965
+        ]
+      }
+    },
+    "b194fa0caa1449468659c568678ee312": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\u5982\u5bb6\u5bbe\u9986</dd>\n<dt>City</dt><dd>Meihekou</dd>\n<dt>Country</dt><dd>CN</dd>\n<dt>Current Weather</dt><dd>broken clouds and 39.49*F</dd>\n</dl>\n",
+        "location": [
+          42.5272,
+          125.6753
+        ]
+      }
+    },
+    "86aef16781e64f8d8b936862326a4260": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Vanderhoof Inn</dd>\n<dt>City</dt><dd>Vanderhoof</dd>\n<dt>Country</dt><dd>CA</dd>\n<dt>Current Weather</dt><dd>few clouds and 33.39*F</dd>\n</dl>\n",
+        "location": [
+          54.0166,
+          -124.0198
+        ]
+      }
+    },
+    "434eee8123f348f6bae96250070f23e1": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Glamping & Camping</dd>\n<dt>City</dt><dd>Vestmannaeyjar</dd>\n<dt>Country</dt><dd>IS</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 38.39*F</dd>\n</dl>\n",
+        "location": [
+          63.4427,
+          -20.2734
+        ]
+      }
+    },
+    "27d807b786e14ec8993068e584f953b6": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Baranof Downtown, BW Signature Collection</dd>\n<dt>City</dt><dd>Juneau</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 36.84*F</dd>\n</dl>\n",
+        "location": [
+          58.3019,
+          -134.4197
+        ]
+      }
+    },
+    "e271c3921b514033aca9ac78a5cebcf7": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\u041a\u043e\u043c\u043d\u0430\u0442\u0430 \u0434\u043b\u044f \u043d\u0430\u043c\u0430\u0437\u0430</dd>\n<dt>City</dt><dd>Staryy Urukh</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>broken clouds and 39.58*F</dd>\n</dl>\n",
+        "location": [
+          43.3404,
+          44.0187
+        ]
+      }
+    },
+    "30881aeabf3845798db22069564e62f9": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Snow's Cove Lodge</dd>\n<dt>City</dt><dd>Ketchikan</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>broken clouds and 39.15*F</dd>\n</dl>\n",
+        "location": [
+          55.3422,
+          -131.6461
+        ]
+      }
+    },
+    "9a368108d88b4e7ca6dcc7e1f09e6548": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Skreda Rorbusuiter</dd>\n<dt>City</dt><dd>Gravdal</dd>\n<dt>Country</dt><dd>NO</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 31.26*F</dd>\n</dl>\n",
+        "location": [
+          68.1214,
+          13.5031
+        ]
+      }
+    },
+    "06b96eb494964f3daaf83ef9898f31a9": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Hotel ideal</dd>\n<dt>City</dt><dd>Ardabil</dd>\n<dt>Country</dt><dd>IR</dd>\n<dt>Current Weather</dt><dd>fog and 35.15*F</dd>\n</dl>\n",
+        "location": [
+          38.2498,
+          48.2933
+        ]
+      }
+    },
+    "c377ba28c8a9440ea61ac377368a86b4": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Narva</dd>\n<dt>City</dt><dd>Kingisepp</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 35.22*F</dd>\n</dl>\n",
+        "location": [
+          59.3733,
+          28.6134
+        ]
+      }
+    },
+    "b64a4055db9a4640a401df223a498011": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Almost HOME</dd>\n<dt>City</dt><dd>Qasigiannguit</dd>\n<dt>Country</dt><dd>GL</dd>\n<dt>Current Weather</dt><dd>few clouds and 35.51*F</dd>\n</dl>\n",
+        "location": [
+          68.8193,
+          -51.1922
+        ]
+      }
+    },
+    "12e3ce8248214caba7d2f92b8e0d5670": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Six Acres Bed & Breakfast</dd>\n<dt>City</dt><dd>Hamilton</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>scattered clouds and 38.21*F</dd>\n</dl>\n",
+        "location": [
+          39.1834,
+          -84.5333
+        ]
+      }
+    },
+    "cbaa757e71b54b1695de5de42a4b1f2d": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Homewood Suites by Hilton Edgewater-NYC Area</dd>\n<dt>City</dt><dd>Fairview</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>broken clouds and 32.23*F</dd>\n</dl>\n",
+        "location": [
+          40.8126,
+          -73.999
+        ]
+      }
+    },
+    "6aaab07898d4443da38a838260961cb2": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>The Grafton Inn</dd>\n<dt>City</dt><dd>Grafton</dd>\n<dt>Country</dt><dd>US</dd>\n<dt>Current Weather</dt><dd>broken clouds and 30.18*F</dd>\n</dl>\n",
+        "location": [
+          42.207,
+          -71.6856
+        ]
+      }
+    },
+    "2913ea83a21d47988b4c6998bcc77dad": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Prolesok Mini-hotel</dd>\n<dt>City</dt><dd>Oktyabrskoye</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 30.34*F</dd>\n</dl>\n",
+        "location": [
+          43.0645,
+          44.7417
+        ]
+      }
+    },
+    "4a7fc9c53bec4fc19e3bf63b322bc536": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430 \u0421\u0430\u0440\u043a\u0430\u043d\u0434</dd>\n<dt>City</dt><dd>Sarkand</dd>\n<dt>Country</dt><dd>KZ</dd>\n<dt>Current Weather</dt><dd>few clouds and 37.08*F</dd>\n</dl>\n",
+        "location": [
+          45.41,
+          79.9186
+        ]
+      }
+    },
+    "0edc878c593d4e54b3f1b892dbbb737b": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Cappadocia Ihlara Mansions</dd>\n<dt>City</dt><dd>Guzelyurt</dd>\n<dt>Country</dt><dd>TR</dd>\n<dt>Current Weather</dt><dd>clear sky and 37.45*F</dd>\n</dl>\n",
+        "location": [
+          38.2772,
+          34.3719
+        ]
+      }
+    },
+    "e1f155e44b534136b429cdab54f24b07": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>Hotel Name</dt><dd>Arkobaleno Mini-hotel</dd>\n<dt>City</dt><dd>Yugorsk</dd>\n<dt>Country</dt><dd>RU</dd>\n<dt>Current Weather</dt><dd>overcast clouds and 31.24*F</dd>\n</dl>\n",
+        "location": [
+          61.3133,
+          63.3319
+        ]
+      }
+    },
+    "24aa3339bbe64953a96a096d512ab15f": {
+      "model_name": "MarkerLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "data_bounds": [
+          [
+            32.18602768142735,
+            -173.0054188142363
+          ],
+          [
+            70.7291858778947,
+            -173.089632910374
+          ]
+        ],
+        "markers": [
+          "IPY_MODEL_ab6cd966b3ae40b190cee07e6136666e",
+          "IPY_MODEL_9c942e6769a84f05bad2b07c18e1b1ed",
+          "IPY_MODEL_c7dfd199eff4460d9a9a072a94daebb4",
+          "IPY_MODEL_0373a13994634715b9cdc9cd26913e56",
+          "IPY_MODEL_3f9d3e0bbe9d4809aa8bf0ef274b33ae",
+          "IPY_MODEL_c461d52f9ab84358ac70d100a6e5add7",
+          "IPY_MODEL_5428f76b3d604ecf9743b4ed45a9b3d2",
+          "IPY_MODEL_172bc65fbb81489196c30512b689e411",
+          "IPY_MODEL_af53682c2a3f4b3eb548acfc31f88831",
+          "IPY_MODEL_4a431f8b31954f329b1bbdc34b95d12e",
+          "IPY_MODEL_8de047d5a24546d4bba43e19cc8d1b0a",
+          "IPY_MODEL_ca9a629f20634dfab668a9e73c44edba",
+          "IPY_MODEL_e048c660c8a94ea3bdad974eb1f6d831",
+          "IPY_MODEL_c29e5f1ac3bb43c197e8a320886a5268",
+          "IPY_MODEL_28c45fd9a36d400490636ba30dbc0ac0",
+          "IPY_MODEL_50731497f9c34df1ac489f4ff79457c6",
+          "IPY_MODEL_b894c6b58467488a9fa17005c75a49e1",
+          "IPY_MODEL_3ca3e59e95004de1a2898bd37892b0ac",
+          "IPY_MODEL_3c72fcc4a8ab40b5b8f3ce8283fbc9fa",
+          "IPY_MODEL_1a033e934f684e289f270b0a8b18eb0f",
+          "IPY_MODEL_ce4290a39d4143eaaf2b5e00d978da96",
+          "IPY_MODEL_588fe0ca55194f98a6fee10010a59824",
+          "IPY_MODEL_e02fcbe70f9745b3996dce8f4f23a407",
+          "IPY_MODEL_fc353814112e46ff9a1e645fbac5e291",
+          "IPY_MODEL_11bc0c7afe8545578bd0dad2d05d76bd",
+          "IPY_MODEL_021a689e11f74e6595e50e0e6a3f8c15",
+          "IPY_MODEL_785192844a50468b9577e62881aee653",
+          "IPY_MODEL_55ac41873be44f29b9a084852ea5d951",
+          "IPY_MODEL_a6ecf6e1d769405bb485db0cde7bd782",
+          "IPY_MODEL_1310beeb8e684f52b1d6a8547b15a1e2",
+          "IPY_MODEL_f0d88698678a4f1bb50073043802002d",
+          "IPY_MODEL_0719c0a53e8a40119e5b69e8ca9d3ada",
+          "IPY_MODEL_fb79d1af43a4425b9108fd8fcf003ced",
+          "IPY_MODEL_44c439f739794b609c225eb1f924dc43",
+          "IPY_MODEL_21513cf7356f4187aada2ba2792fff0c",
+          "IPY_MODEL_b3a46feed40144709293cefce5dcd90a",
+          "IPY_MODEL_0097cba004c94992872378f5fc1b7f71",
+          "IPY_MODEL_3cd4887dda3c4d86ac310dbf706b1048",
+          "IPY_MODEL_ef73d4a2c1994d93a89cfbb99cf9b765",
+          "IPY_MODEL_b323e4979a9c43bfb439ebdb5c82b4cf",
+          "IPY_MODEL_ad71c3c068bd4332a3dd1d48790b656e",
+          "IPY_MODEL_d8d0bc20d510470099ba00a9914c329b",
+          "IPY_MODEL_b194fa0caa1449468659c568678ee312",
+          "IPY_MODEL_86aef16781e64f8d8b936862326a4260",
+          "IPY_MODEL_434eee8123f348f6bae96250070f23e1",
+          "IPY_MODEL_27d807b786e14ec8993068e584f953b6",
+          "IPY_MODEL_e271c3921b514033aca9ac78a5cebcf7",
+          "IPY_MODEL_30881aeabf3845798db22069564e62f9",
+          "IPY_MODEL_9a368108d88b4e7ca6dcc7e1f09e6548",
+          "IPY_MODEL_06b96eb494964f3daaf83ef9898f31a9",
+          "IPY_MODEL_c377ba28c8a9440ea61ac377368a86b4",
+          "IPY_MODEL_b64a4055db9a4640a401df223a498011",
+          "IPY_MODEL_12e3ce8248214caba7d2f92b8e0d5670",
+          "IPY_MODEL_cbaa757e71b54b1695de5de42a4b1f2d",
+          "IPY_MODEL_6aaab07898d4443da38a838260961cb2",
+          "IPY_MODEL_2913ea83a21d47988b4c6998bcc77dad",
+          "IPY_MODEL_4a7fc9c53bec4fc19e3bf63b322bc536",
+          "IPY_MODEL_0edc878c593d4e54b3f1b892dbbb737b",
+          "IPY_MODEL_e1f155e44b534136b429cdab54f24b07"
+        ]
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "52378aa805104a9883a8ab5cfd0adc5c"}
+</script>
+
+</body>
+</html>
