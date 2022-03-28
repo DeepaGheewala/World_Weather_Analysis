@@ -10,13 +10,32 @@
 ## Results
 ### Deliverable 1: Retrieve Weather Data
 
-1) Weather_Database folder contains the following files :
+ Weather_Database folder contains the following files :
 
   * [Weather_Database.ipynb](Weather_Database/Weather_Database.ipynb)
   * [WeatherPy_Database.csv](Weather_Database/WeatherPy_Database.csv)
-  * A Glimpse of the csv file output 
+  
+  * **A Glimpse of the csv file output** 
   <img src="Weather_Database/WeatherPy_Database.png" />
   
-2) Vacation_Search folder contains the following files :
-  * [Vacation_Search.ipynb](#
-4)  
+### Deliverable 2: Create a Customer Travel Destinations Map
+
+Vacation_Search folder contains the following files :
+  * [Vacation_Search.ipynb](Vacation_Search/Vacation_Search.ipynb)
+  * [WeatherPy_vacation.csv](Vacation_Search/WeatherPy_vacation.csv)
+  
+  * **WeatherPy_vacation_map.png** - Display the weather heat maps with markers
+  <img src="Vacation_Search/WeatherPy_vacation_map.png" />
+ 
+ ### Deliverable 3: Create a Travel Itinerary Map
+ Vacation_Itinerary folder contains the following files :
+  * [Vacation_Itinerary.ipynb]()
+  
+  * **WeatherPy_travel_map.png** - Displays the travel route
+   <img src="Vacation_Itinerary/WeatherPy_travel_map.png" />
+   
+   
+  * **WeatherPy_travel_map_markers.png** - Display the markers of the travel route. 
+   <img src="Vacation_Itinerary/WeatherPy_travel_map_markers.png" />
+
+
