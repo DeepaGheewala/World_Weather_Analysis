@@ -39,3 +39,6 @@ Vacation_Search folder contains the following files :
    <img src="Vacation_Iternary/WeatherPy_travel_map_markers.png" />
 
 
+
+  * **Additional image showing route and markers together** - It was observed that when we add route only single marker is visible and the format of the marker changes.
+  <img src="Vacation_Iternary/WeatherPy_travel_map_singlemarker.png" />
