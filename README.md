@@ -12,8 +12,8 @@
 
 1) Weather_Database folder contains the following files :
 
-  * [Weather_Database.ipynb](#Weather_Database/Weather_Database.ipynb)
-  * [WeatherPy_Database.csv](#Weather_Database/WeatherPy_Database.csv)
+  * [Weather_Database.ipynb](Weather_Database/Weather_Database.ipynb)
+  * [WeatherPy_Database.csv](Weather_Database/WeatherPy_Database.csv)
   * A Glimpse of the csv file output 
   <img src="Weather_Database/WeatherPy_Database.png" />
   
